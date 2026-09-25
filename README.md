@@ -33,13 +33,15 @@ This repository is the official home for **Android APK downloads, release notes,
 
 The starting level cap is **100**. Stamina regenerates **1 point every 3 minutes**, up to 100, and fully refills when you level up. **Silver** is earned through play. **Gold** is reserved for future premium features; real-money purchases are not enabled in this test.
 
+GitHub’s automatically generated “Source code” archives contain only the documentation and artwork in this repository—not the game source.
+
 ## Install on Android
 
 1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.1.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. New players need an **invitation code from the realm owner** and an email address to register.
 
-An internet connection is required. The app connects directly to `https://ashfall.d3mon.gg`; players do not need to run a server or connect to a developer’s computer. Usernames ignore capitalization; passwords are case-sensitive.
+Requires **Android 7.0 or newer**. An internet connection is required. The app connects directly to `https://ashfall.d3mon.gg`; players do not need to run a server or connect to a developer’s computer. Usernames ignore capitalization; passwords are case-sensitive.
 
 These are signed test builds distributed outside Google Play. Future updates from this repository will use the same release signing key. If you previously installed a developer/debug APK, Android may require removing that old build first because its signing key differs. Character progress lives on the server; sign in again afterward.
 
