@@ -37,7 +37,7 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.2.0-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.2.1-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
@@ -47,7 +47,16 @@ These are signed test builds distributed outside Google Play. Future updates fro
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
 
-## New in 0.2.0: Town Square
+## New in 0.2.1: Bag, Bank and Tavern
+
+- **Character → Bag**: use potions and manage gems, equipped slots and carried gear.
+- **Character → Bank**: deposit and withdraw Silver, unequipped gear, potions and gems. Withdraw stored assets before using or trading them. Existing items stay in your Bag.
+- Meet merchants through original portraits representing Humans, Dwarves, Elves and Undead.
+- Enter the **Copper Lantern Tavern** from Town Square, then open **Turn of Fortune**.
+- The wheel now has 10 alternating red and 10 blue slots, plus one green. It spins longer and remembers your color and stake on your device.
+- Swords, Daggers and Axes roll Attack/Crit and cannot accept Sapphires. Wands and Staves roll Spirit/Crit.
+
+## Town Square
 
 Visit **Adventure → Town Square** for the Weaponsmith, Armorsmith, Alchemist, Jeweler, Mira, and the Copper Lantern Tavern.
 
@@ -57,10 +66,10 @@ Visit **Adventure → Town Square** for the Weaponsmith, Armorsmith, Alchemist, 
 - New players follow a short quest-and-healing tutorial and unlock **Welcome to Ashfall**. Existing players can start it from **Character → Achievements**.
 - Earn one-time XP from **20 achievements**, covering quests, land, Silver earnings, dungeons, equipment, arena victories and potions.
 - Buy five types of land at fixed prices, from Hearthmere estates to Dawnwatch citadels. More valuable deeds produce more Silver; all types can be traded.
-- Play the animated Silver spinner: red 40% / 2×, blue 50% / 2×, green 10% / 8×. Payouts include the stake. Maximum 50 Silver per bet and 1,000 Silver wagered per rolling 24 hours.
+- Play the animated Silver spinner: red 47.62% / 2×, blue 47.62% / 2×, green 4.76% / 8×. Payouts include the stake. Maximum 50 Silver per bet and 1,000 Silver wagered per rolling 24 hours.
 - Character gender is fixed after creation. Currency and mailbox controls have improved contrast.
 
-Existing characters keep their progress and existing equipment rolls. New characters show all starting stats before creation. New gear has higher stat budgets by rarity; the same named item can have different bonuses.
+Existing characters keep their progress. Physical-weapon Spirit converts to Attack, and existing Sapphires on those weapons become Rubies; total stat points are preserved. New characters show all starting stats before creation. New gear has higher stat budgets by rarity; the same named item can have different bonuses.
 
 ## Bring your friends
 
