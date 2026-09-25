@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">Ashfall</title><desc id="desc">An ember burns beneath a golden rune. Ashfall: Chronicles of the Sundered Realm.</desc>
+<defs><radialGradient id="night"><stop stop-color="#30324b"/><stop offset="1" stop-color="#10131f"/></radialGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#f7dcaa"/><stop offset="1" stop-color="#bd8850"/></linearGradient><radialGradient id="glow"><stop stop-color="#e9984655"/><stop offset="1" stop-color="#e9984600"/></radialGradient></defs>
+<rect width="1200" height="460" rx="18" fill="url(#night)"/><rect x="18" y="18" width="1164" height="424" rx="10" fill="none" stroke="#d9b079" stroke-opacity=".4"/>
+<circle cx="600" cy="154" r="145" fill="url(#glow)"/>
+<path d="M600 48 671 198H641L600 105l-41 93h-30Z" fill="url(#gold)"/><path d="m600 140 21 48-21 25-21-25Z" fill="#e38d4b"/><path d="m600 171 8 19-8 9-8-9Z" fill="#ffe0a3"/>
+<path d="M185 246h225m380 0h225" stroke="#cfac73" stroke-opacity=".45"/><path d="m175 246 5-5 5 5-5 5Zm840 0 5-5 5 5-5 5Z" fill="#cfac73"/>
+<text x="600" y="314" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="89" letter-spacing="16">ASHFALL</text>
+<text x="600" y="359" text-anchor="middle" fill="#c0bdd0" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">CHRONICLES OF THE SUNDERED REALM</text>
+<text x="600" y="403" text-anchor="middle" fill="#bba381" font-family="Georgia,serif" font-size="18" font-style="italic">From the ashes, we rise.</text>
+</svg>
