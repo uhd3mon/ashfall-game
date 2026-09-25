@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/uhd3mon/ashfall-game/releases"><img alt="Android test releases" src="https://img.shields.io/badge/Android-Test%20Builds-d8ae76?style=for-the-badge&amp;logo=android&amp;logoColor=white"></a>
-  <img alt="Invitation-only testing" src="https://img.shields.io/badge/Realm-Invite%20Only-626082?style=for-the-badge">
+  <img alt="Public testing" src="https://img.shields.io/badge/Realm-Public%20Testing-626082?style=for-the-badge">
 </p>
 
 ## Enter Ashfall
@@ -37,9 +37,9 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.1.0-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.1.1-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
-3. Launch **Ashfall**. Existing testers can sign in with their current account. New players need an **invitation code from the realm owner** and an email address to register.
+3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
 Requires **Android 7.0 or newer**. An internet connection is required. The app connects directly to `https://ashfall.d3mon.gg`; players do not need to run a server or connect to a developer’s computer. Usernames ignore capitalization; passwords are case-sensitive.
 
@@ -47,14 +47,20 @@ These are signed test builds distributed outside Google Play. Future updates fro
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
 
+## Bring your friends
+
+Your personal friend code appears in **More → Settings** after login. A friend can enter it there to award both accounts **100 Silver and one saved stamina refill**, once per account. Use the refill in Settings when stamina is below 100. Your code remains shareable after your own reward is claimed; additional friends receive their bonus without giving you repeat rewards.
+
+New Human characters receive **+3 Attack / −2 Spirit**. Existing characters keep their stats.
+
 ## During testing
 
-- The realm is invitation-only; availability and game balance may change.
+- The realm is open for public testing; availability and game balance may change.
 - Choose your public profile details carefully. Account emails and unequipped inventories are not public.
-- Sound effects and animations can be toggled independently in **More → Settings**.
+- Sound effects, animations, and text size (90–140%, default 110%) can be adjusted in **More → Settings**.
 - Use **Back** to return through previous pages without reopening the bottom menus.
 - In-game reports reach the realm staff. For app bugs, [open a GitHub issue](https://github.com/uhd3mon/ashfall-game/issues) with your Android version, app version, steps to reproduce, and expected behavior.
-- Never post passwords, invitation codes, private mail, or account email addresses in public issues.
+- Never post passwords, private mail, or account email addresses in public issues.
 
 ## Releases and verification
 
