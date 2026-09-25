@@ -24,11 +24,11 @@ This repository is the official home for **Android APK downloads, release notes,
 | Choose your path | Shape your legacy |
 |---|---|
 | **Human, Elf, Dwarf, or Undead** | Male and female portraits, ancestry tradeoffs, and personal profiles |
-| **Warrior, Mage, Paladin, or Rogue** | Attack, Defense, and Spirit define your strength |
+| **Warrior, Mage, Paladin, or Rogue** | Attack, Defense, Spirit, Agility, and Crit define your strength |
 | **Quests and arena battles** | Server-resolved success and failure, XP, rewards, and gear drops |
 | **Cooperative dungeons** | Gather a party; Paladins can spend stamina to heal allies |
 | **Guilds and rival armies** | Found a guild, choose a tag, and challenge other banners |
-| **Gear, land, and trading** | Equip weapons, armor, and trinkets; trade with players or sell to Mira |
+| **Gear, land, and trading** | Equip weapons, armor, trinkets, and rings; trade with players or sell to Mira |
 | **Mail and community** | Meet adventurers, exchange letters, and share your story |
 
 The starting level cap is **100**. Stamina regenerates **1 point every 3 minutes**, up to 100, and fully refills when you level up. **Silver** is earned through play. **Gold** is reserved for future premium features; real-money purchases are not enabled in this test.
@@ -37,7 +37,7 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.1.1-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.2.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
@@ -46,6 +46,21 @@ Requires **Android 7.0 or newer**. An internet connection is required. The app c
 These are signed test builds distributed outside Google Play. Future updates from this repository will use the same release signing key. If you previously installed a developer/debug APK, Android may require removing that old build first because its signing key differs. Character progress lives on the server; sign in again afterward.
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
+
+## New in 0.2.0: Town Square
+
+Visit **Adventure → Town Square** for the Weaponsmith, Armorsmith, Alchemist, Jeweler, Mira, and the Copper Lantern Tavern.
+
+- Buy common/uncommon gear with individual stat rolls. Gear now supports a **Ring** slot; Rogues start with bonus Crit.
+- Buy Health and XP potions with Silver. Stamina potions cost existing Gold; real-money Gold purchases remain unavailable.
+- Add one **permanent gem** per equipment item: Ruby (Attack), Sapphire (Spirit), Emerald (Agility), Diamond (weapon Crit), or Amethyst (armor Defense).
+- New players follow a short quest-and-healing tutorial and unlock **Welcome to Ashfall**. Existing players can start it from **Character → Achievements**.
+- Earn one-time XP from **20 achievements**, covering quests, land, Silver earnings, dungeons, equipment, arena victories and potions.
+- Buy five types of land at fixed prices, from Hearthmere estates to Dawnwatch citadels. More valuable deeds produce more Silver; all types can be traded.
+- Play the animated Silver spinner: red 40% / 2×, blue 50% / 2×, green 10% / 8×. Payouts include the stake. Maximum 50 Silver per bet and 1,000 Silver wagered per rolling 24 hours.
+- Character gender is fixed after creation. Currency and mailbox controls have improved contrast.
+
+Existing characters keep their progress and existing equipment rolls. New characters show all starting stats before creation. New gear has higher stat budgets by rarity; the same named item can have different bonuses.
 
 ## Bring your friends
 
