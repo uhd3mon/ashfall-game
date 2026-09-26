@@ -37,7 +37,7 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.4.0-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.5.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
@@ -46,6 +46,13 @@ Requires **Android 7.0 or newer**. An internet connection is required. The app c
 These are signed test builds distributed outside Google Play. Future updates from this repository will use the same release signing key. If you previously installed a developer/debug APK, Android may require removing that old build first because its signing key differs. Character progress lives on the server; sign in again afterward.
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
+
+## New in 0.5.0: Portraits of Hearthmere
+
+- New detailed fantasy portrait for Vaal, with brass filigree and violet framing.
+- New artwork for all five estates, from Hearthmere to Dawnwatch.
+- Cleaner merchant cards: portraits, names, trades and descriptions, without item-icon rows or the “Here today” badge.
+- Existing accounts and progress are preserved.
 
 ## New in 0.4.0: Vaal, new lands and a tighter economy
 
