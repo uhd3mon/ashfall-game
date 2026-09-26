@@ -37,7 +37,7 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.2.1-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.3.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
@@ -47,10 +47,29 @@ These are signed test builds distributed outside Google Play. Future updates fro
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
 
-## New in 0.2.1: Bag, Bank and Tavern
+## New in 0.3.0: The Spellbook
 
-- **Character → Bag**: use potions and manage gems, equipped slots and carried gear.
-- **Character → Bank**: deposit and withdraw Silver, unequipped gear, potions and gems. Withdraw stored assets before using or trading them. Existing items stay in your Bag.
+The whole game has been redesigned as an open spellbook: aged paper pages bound in leather, with brass corners, red chapter headings and illuminated capitals.
+
+- **One-handed play on phones:** your character band (portrait, level, Silver, Gold, health, stamina and XP) sits just above the bottom menu. Health is red, stamina green, XP blue.
+- **Clearer navigation:** five tabs (**Home, Adventure, Town, Hero, Realm**) open menus showing live counts such as unread mail and pending trades. On tablets and computers, the menu lives on the book's leather spine. Settings, help and sign-out are under the **⚙** button.
+- **Home dashboard:** refill timers for health and stamina, estate income to collect, your next quest and recent notifications.
+- **Page turns:** changing sections turns the page. Sign-in is now an open book as well.
+- **Sound:** recorded fantasy sound effects throughout, including book pages for menus, a rustling Bag, the Bank vault door, coins for deposits and sales, shop doors, equipment, potions, gems, mail seals, fanfares and loot chimes. Volume is adjustable in Settings.
+- **Quest dice:** every quest and duel shows a rolling die that lands on the real roll (1–100). It turns gold on success and crimson on failure.
+- **Seven new quests** at levels 9, 17, 21, 30, 37, 41 and 46, and story briefings for every quest.
+- **Rarer, more valuable loot:** quests below level 25 drop up to uncommon, and level 25+ quests can drop rare. **Epic** and the new **Legendary** gear drop only from dungeons, and are very rare.
+- **Smiths pay more for their trade:** Bram, Orla and Iris buy any unequipped gear from their shops and pay 15% more for weapons, armor, and rings/trinkets respectively.
+- **Town Square** shows every merchant with their specialty and wares. Shops are reached through Town Square.
+- **Turn of Fortune** has a brass wheel with a flapping pointer and peg ticks, tap-to-pick color cards, casino chips, a payout preview, your recent spins and a jackpot celebration. The odds and limits are unchanged.
+- "Tidings" are now called **Notifications**.
+
+Existing accounts and progress are kept.
+
+## 0.2.1: Bag, Bank and Tavern
+
+- **Hero → Bag**: use potions and manage gems, equipped slots and carried gear.
+- **Town → Bank vault**: deposit and withdraw Silver, unequipped gear, potions and gems. Withdraw stored assets before using or trading them. Existing items stay in your Bag.
 - Meet merchants through original portraits representing Humans, Dwarves, Elves and Undead.
 - Enter the **Copper Lantern Tavern** from Town Square, then open **Turn of Fortune**.
 - The wheel now has 10 alternating red and 10 blue slots, plus one green. It spins longer and remembers your color and stake on your device.
@@ -58,12 +77,12 @@ These are signed test builds distributed outside Google Play. Future updates fro
 
 ## Town Square
 
-Visit **Adventure → Town Square** for the Weaponsmith, Armorsmith, Alchemist, Jeweler, Mira, and the Copper Lantern Tavern.
+Visit **Town → Town Square** for the Weaponsmith, Armorsmith, Alchemist, Jeweler, Mira, and the Copper Lantern Tavern.
 
 - Buy common/uncommon gear with individual stat rolls. Gear now supports a **Ring** slot; Rogues start with bonus Crit.
 - Buy Health and XP potions with Silver. Stamina potions cost existing Gold; real-money Gold purchases remain unavailable.
 - Add one **permanent gem** per equipment item: Ruby (Attack), Sapphire (Spirit), Emerald (Agility), Diamond (weapon Crit), or Amethyst (armor Defense).
-- New players follow a short quest-and-healing tutorial and unlock **Welcome to Ashfall**. Existing players can start it from **Character → Achievements**.
+- New players follow a short quest-and-healing tutorial and unlock **Welcome to Ashfall**. Existing players can start it from **Hero → Achievements**.
 - Earn one-time XP from **20 achievements**, covering quests, land, Silver earnings, dungeons, equipment, arena victories and potions.
 - Buy five types of land at fixed prices, from Hearthmere estates to Dawnwatch citadels. More valuable deeds produce more Silver; all types can be traded.
 - Play the animated Silver spinner: red 47.62% / 2×, blue 47.62% / 2×, green 4.76% / 8×. Payouts include the stake. Maximum 50 Silver per bet and 1,000 Silver wagered per rolling 24 hours.
@@ -73,7 +92,7 @@ Existing characters keep their progress. Physical-weapon Spirit converts to Atta
 
 ## Bring your friends
 
-Your personal friend code appears in **More → Settings** after login. A friend can enter it there to award both accounts **100 Silver and one saved stamina refill**, once per account. Use the refill in Settings when stamina is below 100. Your code remains shareable after your own reward is claimed; additional friends receive their bonus without giving you repeat rewards.
+Your personal friend code appears in **⚙ → Settings** after login. A friend can enter it there to award both accounts **100 Silver and one saved stamina refill**, once per account. Use the refill in Settings when stamina is below 100. Your code remains shareable after your own reward is claimed; additional friends receive their bonus without giving you repeat rewards.
 
 New Human characters receive **+3 Attack / −2 Spirit**. Existing characters keep their stats.
 
@@ -81,7 +100,7 @@ New Human characters receive **+3 Attack / −2 Spirit**. Existing characters ke
 
 - The realm is open for public testing; availability and game balance may change.
 - Choose your public profile details carefully. Account emails and unequipped inventories are not public.
-- Sound effects, animations, and text size (90–140%, default 110%) can be adjusted in **More → Settings**.
+- Sound effects, animations, and text size (90–140%, default 110%) can be adjusted in **⚙ → Settings** (including sound volume).
 - Use **Back** to return through previous pages without reopening the bottom menus.
 - In-game reports reach the realm staff. For app bugs, [open a GitHub issue](https://github.com/uhd3mon/ashfall-game/issues) with your Android version, app version, steps to reproduce, and expected behavior.
 - Never post passwords, private mail, or account email addresses in public issues.
