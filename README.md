@@ -37,7 +37,7 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.3.0-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.4.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
@@ -46,6 +46,15 @@ Requires **Android 7.0 or newer**. An internet connection is required. The app c
 These are signed test builds distributed outside Google Play. Future updates from this repository will use the same release signing key. If you previously installed a developer/debug APK, Android may require removing that old build first because its signing key differs. Character progress lives on the server; sign in again afterward.
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
+
+## New in 0.4.0: Vaal, new lands and a tighter economy
+
+- **New bottom bar:** Home, Adventure, **Ashfall** (Town Square, Bank, Tavern, guild hall, mailbox, trading post and people), Hero (now with your lands) and **Notifications**.
+- **Vaal, the Hooded Trader:** a rare merchant with glowing eyes and a shimmering rune border. He brings five rare or epic pieces each week, and each piece sells only once.
+- **Town Square:** Mira is now the Armorsmith. Iris also sells rings and trinkets. A quiet market murmur plays in the square, and the Tavern music now fades in and out between places.
+- **Lands:** new artwork for every estate. Lands cost 100–500 Silver, earn 5–25 Silver an hour, and sell back for a quarter of their price.
+- **Economy:** quests pay a small random amount of Silver that rises by region, and dungeons pay 10–25 Silver.
+- **Tavern games:** Turn of Fortune bets are 1–5 Silver with 500 per day. Runhfell Slots costs 10 Silver, which goes straight into your pot, and boss rewards show as percentages. Both games fit a phone screen without scrolling.
 
 ## New in 0.3.0: The Spellbook
 
