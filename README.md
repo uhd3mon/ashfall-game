@@ -37,7 +37,7 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.5.0-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.6.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
 3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
 
@@ -46,6 +46,15 @@ Requires **Android 7.0 or newer**. An internet connection is required. The app c
 These are signed test builds distributed outside Google Play. Future updates from this repository will use the same release signing key. If you previously installed a developer/debug APK, Android may require removing that old build first because its signing key differs. Character progress lives on the server; sign in again afterward.
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
+
+## New in 0.6.0: Fellowship and fortune
+
+- Send Silver, unequipped equipment, potions and gems through private mail. Recipients claim attachments once into their purse and Bag.
+- Apply to guilds; founders and officers receive alerts and can approve or decline applicants. Founders can appoint officers.
+- Guild Hall now shows the roster, roles, rankings and REP contributions.
+- Browse Active, Public, Guild and Archived dungeon parties. Successful and failed runs are archived for participants.
+- Clear a dungeon with at least two contributing guildmates to earn 10 personal REP and 10 guild renown per qualifying member.
+- Runhfell Slots triples pay 1/2/3 Silver for Embers/Runes/Crowns. Set bonuses add 5, then 10, then 15 for every later completion. Boss spins are less frequent before stage 10.
 
 ## New in 0.5.0: Portraits of Hearthmere
 
