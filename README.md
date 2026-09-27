@@ -13,7 +13,7 @@
 
 ## Enter Ashfall
 
-**Ashfall** is a persistent fantasy MMO built around short adventures, meaningful equipment, and a realm of real players. Explore a shattered world through a mobile-first, text-driven interface with parchment pages, original character portraits, and an evolving social economy.
+**Ashfall** is a persistent fantasy MMO built around short adventures, meaningful equipment, and a realm of real players. Explore a shattered world through a mobile-first, text-driven interface with a clean dark interface, original character portraits, and an evolving social economy.
 
 This repository is the official home for **Android APK downloads, release notes, and player feedback**. Game source code, server code, credentials, and player data are not published here. This is an early test release; features and balance will change.
 
@@ -26,8 +26,8 @@ This repository is the official home for **Android APK downloads, release notes,
 | **Human, Elf, Dwarf, or Undead** | Male and female portraits, ancestry tradeoffs, and personal profiles |
 | **Warrior, Mage, Paladin, or Rogue** | Attack, Defense, Spirit, Agility, and Crit define your strength |
 | **Quests and arena battles** | Server-resolved success and failure, XP, rewards, and gear drops |
-| **Cooperative dungeons** | Gather a party; Paladins can spend stamina to heal allies |
-| **Guilds and rival armies** | Found a guild, choose a tag, and challenge other banners |
+| **Cooperative dungeons** | Fight solo or with up to four players through three-boss dungeons |
+| **Guilds and fellowship** | Found a guild, recruit members, appoint officers, and earn REP |
 | **Gear, land, and trading** | Equip weapons, armor, trinkets, and rings; trade with players or sell to Mira |
 | **Mail and community** | Meet adventurers, exchange letters, and share your story |
 
@@ -37,17 +37,29 @@ GitHub’s automatically generated “Source code” archives contain only the d
 
 ## Install on Android
 
-1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.6.0-android.apk` from the newest Android test release.
+1. Open [Releases](https://github.com/uhd3mon/ashfall-game/releases) and download `ashfall-0.7.0-android.apk` from the newest Android test release.
 2. Open the APK on your device. If prompted, allow that browser or file manager to install this app, then complete installation.
-3. Launch **Ashfall**. Existing testers can sign in with their current account. Registration is open to everyone; new players need an email address.
+3. Launch **Ashfall**. The 0.7.0 test realm starts fresh: create an account with your email and password, then create a character. Each email can hold up to five characters.
 
-Requires **Android 7.0 or newer**. An internet connection is required. The app connects directly to `https://ashfall.d3mon.gg`; players do not need to run a server or connect to a developer’s computer. Usernames ignore capitalization; passwords are case-sensitive.
+Requires **Android 7.0 or newer**. An internet connection is required. The app connects directly to `https://ashfall.d3mon.gg`; players do not need to run a server or connect to a developer’s computer. Sign in with your email; passwords are case-sensitive.
 
 These are signed test builds distributed outside Google Play. Future updates from this repository will use the same release signing key. If you previously installed a developer/debug APK, Android may require removing that old build first because its signing key differs. Character progress lives on the server; sign in again afterward.
 
 **iOS is planned later.** Android is the only packaged app distributed here for now.
 
-## New in 0.6.0: Fellowship and fortune
+## New in 0.7.0: A fresh adventure
+
+**Fresh test realm:** previous production accounts and characters have been wiped for this testing phase. Register a new email account after the administrator opens the realm.
+
+- Email login with up to five characters per account and a refreshed dark interface.
+- Explore the World Map, fight creatures with turn-based dice combat, learn class skills, and discover rare enemies and loot.
+- Accept and turn in daily and weekly quests. Daily quests reset at 00:00 UTC; weekly quests reset Monday at 00:00 UTC.
+- Challenge Arena opponents within one level of your character. Attack manually against an automated defender; track wins and losses. Defeat grants 12 hours of protection unless you start another Arena fight.
+- Enter level-gated dungeons solo or in a party of up to four. Each dungeon has three bosses; party members take turns before the boss attacks. Earn guild REP for clearing together.
+- Prepare a belt with two Health and two Stamina potions before combat. XP potions grant a 30-minute buff; gear can drop with gem sockets.
+- Guild Battles are marked coming soon.
+
+## 0.6.0: Fellowship and fortune
 
 - Send Silver, unequipped equipment, potions and gems through private mail. Recipients claim attachments once into their purse and Bag.
 - Apply to guilds; founders and officers receive alerts and can approve or decline applicants. Founders can appoint officers.
@@ -106,8 +118,8 @@ Visit **Town → Town Square** for the Weaponsmith, Armorsmith, Alchemist, Jewel
 
 - Buy common/uncommon gear with individual stat rolls. Gear now supports a **Ring** slot; Rogues start with bonus Crit.
 - Buy Health and XP potions with Silver. Stamina potions cost existing Gold; real-money Gold purchases remain unavailable.
-- Add one **permanent gem** per equipment item: Ruby (Attack), Sapphire (Spirit), Emerald (Agility), Diamond (weapon Crit), or Amethyst (armor Defense).
-- New players follow a short quest-and-healing tutorial and unlock **Welcome to Ashfall**. Existing players can start it from **Hero → Achievements**.
+- Add one **permanent gem** to equipment that has an empty socket: Ruby (Attack), Sapphire (Spirit), Emerald (Agility), Diamond (weapon Crit), or Amethyst (armor Defense).
+- New players follow a short introductory tutorial and unlock **Welcome to Ashfall**. Existing players can start it from **Hero → Achievements**.
 - Earn one-time XP from **20 achievements**, covering quests, land, Silver earnings, dungeons, equipment, arena victories and potions.
 - Buy five types of land at fixed prices, from Hearthmere estates to Dawnwatch citadels. More valuable deeds produce more Silver; all types can be traded.
 - Play the animated Silver spinner: red 47.62% / 2×, blue 47.62% / 2×, green 4.76% / 8×. Payouts include the stake. Maximum 50 Silver per bet and 1,000 Silver wagered per rolling 24 hours.
