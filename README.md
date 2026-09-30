@@ -2,9 +2,9 @@
 
 # Ashfall — The Sundered Realm
 
-Build an estate, recruit and equip an army, complete expeditions and meet other rulers in an original fantasy kingdom RPG. **0.14.0 is a fresh-world friends test of the rebuilt game.** The previous game's characters and economy do not transfer.
+Build an estate, recruit and equip an army, complete expeditions and meet other rulers in an original fantasy kingdom RPG. **0.15.0 is the latest friends test.** Existing Sundered Realm accounts and progress are preserved.
 
-**[Play in your browser](https://ashfall.d3mon.gg)** · **[Download Android 0.14.0](https://github.com/uhd3mon/ashfall-game/releases/tag/android-v0.14.0)** · **[Report an issue](https://github.com/uhd3mon/ashfall-game/issues)**
+**[Play in your browser](https://ashfall.d3mon.gg)** · **[Download Android 0.15.0](https://github.com/uhd3mon/ashfall-game/releases/tag/android-v0.15.0)** · **[Report an issue](https://github.com/uhd3mon/ashfall-game/issues)**
 
 ## Start playing
 
@@ -14,13 +14,13 @@ Build an estate, recruit and equip an army, complete expeditions and meet other 
 
 The level cap is **200**, across five regions and 400 quests. Actual level-ups refill Health, Mana and Spirit. Daily objectives reset at **00:00 UTC**. Vault deposits are free; withdrawals cost **2%**, rounded up to whole Silver.
 
-Your estate shows owned buildings and their counts. Home includes world/guild chat, daily objectives and events. Guilds have short tags, applications and officers. Army raids, bounties and consent-based guild wars are available as you progress. Sound effects and quiet kingdom ambience can be adjusted or muted in Settings.
+Your estate shows owned buildings and their counts. Home includes world/guild chat, daily objectives and events. Guilds have short tags, applications and officers. PvP is automatic from level 1. Low-health protection, recovery shields, level/power matching and daily repeat-attack limits protect players from repeated raids. Bounties and consent-based guild wars unlock as you progress. An original orchestral theme, sound effects and layered kingdom ambience can be adjusted or muted in Settings.
 
 ## Android
 
-Download `ashfall-0.14.0-android.apk` from the release above and open it on your phone. Allow installation from your browser/file manager if Android asks. Requires **Android 7 or later** and an internet connection.
+Download `ashfall-0.15.0-android.apk` from the release above and open it on your phone. Allow installation from your browser/file manager if Android asks. Requires **Android 7 or later** and an internet connection.
 
-This signed APK uses the same application ID and signing key as the previous signed release and can update it. It connects to the same HTTPS realm as desktop browsers. Existing signed 0.7.0 installations also load the new server UI; the new APK includes updated native Back handling and packaged fallback assets.
+This signed APK uses the same application ID and signing key as the previous signed release and can update it. It connects to the same HTTPS realm as desktop browsers. Existing signed installations also load the updated server UI; this APK refreshes the packaged fallback assets.
 
 ## Testing limits
 
